@@ -14,11 +14,11 @@ body {
     height: 400px;
     padding: 0;
     box-sizing: border-box;
-
+    transition: 1s;
 }
 #container:hover{
 filter: invert(1);
-
+scale: 2;
 transition: 1s;
 }
 
@@ -31,7 +31,7 @@ transition: 1s;
     margin: 10% auto;
     width: 80%;
     height: 80%;
-    animation: floaty 2s infinite;
+    animation: floaty 0.5s infinite;
 }
 
 #spooky #body {
